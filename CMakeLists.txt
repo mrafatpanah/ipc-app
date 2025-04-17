@@ -7,3 +7,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 add_executable(ipc_app main.cpp)
 
 message(STATUS "Configuring CppIPCExample project")
+message(STATUS "   Executable target: ipc_app")
+message(STATUS "   C++ Standard: ${CMAKE_CXX_STANDARD}")
